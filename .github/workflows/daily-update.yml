@@ -35,3 +35,5 @@ jobs:
           git add data docs/data
           git diff --cached --quiet || git commit -m "chore: daily data update"
           git push
+
+# 觸發 GitHub 重新掃描 workflow 註冊
