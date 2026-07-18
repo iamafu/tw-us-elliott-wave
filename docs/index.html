@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>台美股波浪 & 乖離率分析</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">波浪 &amp; 乖離率</div>
+  <nav class="tabs" id="index-tabs">
+    <button class="tab active" data-index="TAIEX">加權指數</button>
+    <button class="tab" data-index="SOX">費半</button>
+    <button class="tab" data-index="NASDAQ">那斯達克</button>
+  </nav>
+  <nav class="tabs" id="tf-tabs">
+    <button class="tab active" data-tf="D">日</button>
+    <button class="tab" data-tf="W">週</button>
+    <button class="tab" data-tf="M">月</button>
+    <button class="tab" data-tf="Q">季</button>
+    <button class="tab" data-tf="Y">年</button>
+  </nav>
+  <div class="meta" id="meta-info"></div>
+</header>
+
+<main>
+  <section class="chart-panel">
+    <div class="panel-toolbar">
+      <span class="panel-title" id="main-title"></span>
+      <span class="quote" id="quote-info"></span>
+      <span class="label-status" id="label-status"></span>
+      <span class="spacer"></span>
+      <button class="tool-btn" id="toggle-edit">標記模式</button>
+      <button class="tool-btn" id="save-labels">儲存標記</button>
+      <button class="tool-btn" id="toggle-fib">費波納契</button>
+      <button class="tool-btn" id="toggle-color">紅漲綠跌</button>
+    </div>
+    <div id="main-chart" class="chart-box">
+      <div id="label-menu" class="label-menu" hidden></div>
+    </div>
+  </section>
+  <section class="chart-panel bias-panel">
+    <div class="panel-toolbar">
+      <span class="panel-title">乖離率 BIAS</span>
+      <nav class="tabs small" id="ma-tabs"></nav>
+      <span class="quote" id="bias-info"></span>
+    </div>
+    <div id="bias-chart" class="chart-box"></div>
+  </section>
+</main>
+
+<script src="js/vendor/lightweight-charts.standalone.production.js"></script>
+<script src="js/chart.js"></script>
+</body>
+</html>

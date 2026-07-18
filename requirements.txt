@@ -1,0 +1,4 @@
+yfinance>=1.4
+pandas>=2.2
+fastapi>=0.110
+uvicorn>=0.29

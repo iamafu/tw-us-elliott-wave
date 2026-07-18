@@ -1,0 +1,32 @@
+{
+  "updated": "2026-07-18T07:14:29+00:00",
+  "indices": [
+    "TAIEX",
+    "SOX",
+    "NASDAQ"
+  ],
+  "timeframes": [
+    "D",
+    "W",
+    "M",
+    "Q",
+    "Y"
+  ],
+  "files": [
+    "TAIEX-D.json",
+    "TAIEX-W.json",
+    "TAIEX-M.json",
+    "TAIEX-Q.json",
+    "TAIEX-Y.json",
+    "SOX-D.json",
+    "SOX-W.json",
+    "SOX-M.json",
+    "SOX-Q.json",
+    "SOX-Y.json",
+    "NASDAQ-D.json",
+    "NASDAQ-W.json",
+    "NASDAQ-M.json",
+    "NASDAQ-Q.json",
+    "NASDAQ-Y.json"
+  ]
+}

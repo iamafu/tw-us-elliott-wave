@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip --version)",
+      "Bash(python -c \"import yfinance, pandas; print\\('yfinance', yfinance.__version__, '| pandas', pandas.__version__\\)\")"
+    ]
+  }
+}
