@@ -2,6 +2,8 @@
 
 台灣加權指數（TAIEX）、費城半導體（SOX）、那斯達克（NASDAQ）的波浪理論與乖離率分析系統。
 
+**線上版**：https://iamafu.github.io/tw-us-elliott-wave/ （每日收盤後自動更新）
+
 ## 功能
 
 - **資料**：yfinance 抓取近 30 年日線，SQLite 儲存，每日增量更新

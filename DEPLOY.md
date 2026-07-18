@@ -37,9 +37,7 @@ python -m src.server
 
 ## Deploy Steps
 
-1. Repo：`https://github.com/iamafu/tw-us-elliott-wave`（Private）
+1. Repo：`https://github.com/iamafu/tw-us-elliott-wave`（Public，2026-07-18 由 Private 轉換以啟用免費 Pages）
 2. 排程：`.github/workflows/daily-update.yml` — UTC 06:30（台北 14:30，台股收盤後）與 UTC 21:30 Mon-Fri（台北隔日 05:30，美股收盤後）自動更新並 commit `data/` 與 `docs/data/`
-3. 網頁發布：GitHub Pages 指向 `main` 分支 `/docs` 目錄
-   - ⚠️ 免費方案不支援 Private repo Pages。啟用方式擇一：repo 改 Public、升級 GitHub Pro，或改用 Cloudflare Pages 串接私有 repo
-   - 啟用指令：`gh api repos/iamafu/tw-us-elliott-wave/pages -X POST -f "source[branch]=main" -f "source[path]=/docs"`
-4. 波浪標記：線上版唯讀；標記於本機 `python -m src.server` 編輯後 commit push
+3. 網頁：GitHub Pages 已啟用，`main` 分支 `/docs` 目錄 → https://iamafu.github.io/tw-us-elliott-wave/
+4. 波浪標記：線上版唯讀；標記於本機 `python -m src.server` 編輯後 commit push，Pages 於數分鐘內自動重建

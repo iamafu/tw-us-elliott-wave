@@ -8,6 +8,7 @@
 - 修復：美股排程 cron 改 UTC Mon-Fri，補齊週五收盤更新
 - 修復：月/季/年未完成 bar 標記 provisional，前端顯示〔本期未完成〕
 - 修復：GET /api/labels 補上 index/tf 白名單驗證
+- 部署：GitHub repo（Public）+ Actions 每日排程 + Pages 上線 https://iamafu.github.io/tw-us-elliott-wave/
 
 - 新增：資料層（yfinance 抓取 + SQLite 儲存 + 30 年回填 + 每日增量更新）
 - 新增：分析層（乖離率含分位數、ZigZag 轉折點、費波納契回撤/延伸）
